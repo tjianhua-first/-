@@ -1,0 +1,126 @@
+.w {
+	width: 1200px;
+	margin: auto;
+}
+.header {
+	height: 82px;
+	border-bottom:2px solid #B1191A ;
+}
+.logo {
+	padding: 20px;
+}
+.registerArea {
+	height: 520px;
+	border: 1px solid #CCCCCC;
+	margin: 20px 0;
+}
+.registerArea h3 {
+	height: 40px;
+	background-color: #ECECEC;
+	border-bottom: 1px solid #CCCCCC;
+	padding-left: 10px;
+	font-weight: 400;
+	line-height: 40px;
+	font-size: 18px;
+}
+.registerArea h3 em {
+	float: right;
+	padding-right: 20px;
+	font-size: 14px;
+}
+.registerArea em a {
+	color: red;
+}
+.reg_from {
+	width: 600px;
+	height: 420px;
+	margin: 40px auto;
+}
+.reg_from li {
+	margin-bottom: 20px;
+}
+.reg_from label {
+	display: inline-block;
+	width: 100px;
+	height: 36px;
+	line-height: 36px;
+	text-align: right;
+	
+}
+.reg_from .inp {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #CCCCCC;
+}
+/* 字体图标 */
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?9637kq');
+  src:  url('../fonts/icomoon.eot?9637kq#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9637kq') format('truetype'),
+    url('../fonts/icomoon.woff?9637kq') format('woff'),
+    url('../fonts/icomoon.svg?9637kq#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.error {
+	color: #DF3033;
+}
+.error_icon {
+	width: 20px;
+	height: 20px;
+	font-family: "icomoon";
+}
+.success {
+	color: green;
+}
+.success_icon{
+	width: 20px;
+	height: 20px;
+	font-family: "icomoon";
+}
+.safe {
+	padding-left: 187px;
+	color: #b2b2b2;
+	margin-top: -10px;
+}
+.ruo{
+	background-color: #de1111;
+}
+.zhong {
+	background-color: #40b83f;
+}
+.qiang {
+	background-color: #f79100;
+}
+.safe em {
+	padding: 0 10px;
+	color: #FFFFFF;
+}
+.agree {
+	padding-left: 150px;
+}
+.agree input {
+	vertical-align: middle;
+}
+.agree a {
+	color: #1ba1e6;
+}
+.over {
+	width: 200px;
+	height: 34px;
+	background-color: #c81623;
+	margin: 30px 0 0 130px ;
+	border: none;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+.footer {
+	text-align: center;
+}
+.mod_copyright_links {
+	margin: 20px 0 15px 0;
+}
+.mod_copyright_info {
+	line-height: 22px;
+}

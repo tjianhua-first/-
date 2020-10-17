@@ -1,0 +1,271 @@
+/* 首页样式 */
+/* main start */
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	width: 720px;
+	height: 455px;
+	overflow: hidden;
+}
+.arrow-l,
+.arrow-r {	
+	display: none;
+	position: absolute;
+	top: 50%;
+	margin-top: -20px;
+	width: 24px;
+	height: 40px;
+	background-color: rgba(0,0,0,.3);
+	text-align: center;
+	line-height: 40px;
+	font-family: 'icomoon';
+	color: #FFFFFF;
+	font-size: 18px;
+	z-index: 20;
+}
+.arrow-r {
+	right: 0;
+}
+.focus ul {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 800%;
+	height: 454px;
+
+}
+.focus ul li {
+	float: left;
+}
+.circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+
+}
+.circle li {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border:2px solid rgba(255,255,255,.5);
+	margin: 0 6px;
+	border-radius: 50%;
+	/* 鼠标经过显示小手 */
+	cursor: pointer;
+}
+.newflash {
+	width: 250px;
+	height: 455px;
+}
+.news {
+	height: 163px;
+	border:1px solid #CCCCCC;	
+}
+.news-hd {
+	height: 32px;
+	border-bottom: 1px dotted #CCCCCC;
+	font-size: 14px;
+	line-height: 32px;
+	padding: 0 15px ;
+}
+.news-hd a{
+	font-family: 'icomoon';
+	font-style: 12px;
+}
+.news-bd {
+	padding: 10px 0 0 15px;
+}
+.news-bd li {
+	height: 23px;
+}
+.lifeservice {
+	height: 208px;
+	border: 1px solid #CCCCCC;
+	border-top: none;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 252px;
+	
+}
+.lifeservice li {
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
+.lifeservice li a {
+	display: block;
+	overflow: hidden;
+}
+.service_ico {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(../img/icons.png) no-repeat;
+	margin: 10px auto;
+}
+.service_ico_huafei {
+	background-position: -17px -16px;
+}
+.service_ico_feiji {
+	background-position: -78px -16px;
+}
+.lifeservice li p {
+	text-align: center;
+}
+.bargain {
+	height: 75px;
+	margin-top: 5px;
+}
+
+/* 推荐服务模块 start */
+.recommend {
+	height: 163px;
+	margin-top: 10px;
+}
+.recom-hd {
+	width: 200px;
+	height: 163px;
+	background-color: #5C5251;
+	text-align: center;
+}
+.recom-hd img {
+	margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+	font-size:18px;
+	color: #FFFFFF;
+	font-weight: normal;
+}
+.recom-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #EBEBEB;
+	overflow: hidden;
+}
+.recom-bd li {
+	float: left;
+	width: 249px;
+	height: 145px;
+	border-right: 1px solid #CCCCCC;
+	margin-top: 10px;
+}
+
+/* floor 楼层区 */
+.box-hd {
+	height: 30px;
+	border-bottom: 2px solid #C81623;
+	margin-top: 25px;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #C81623;	
+}
+.tab-list {
+	line-height: 30px;
+}
+.tab-list li {
+	float:left;
+}
+.tab-list li a {
+	margin: 0 15px;
+}
+.box-bd {
+	height: 361px;
+	background-color: #F1F1F1;
+	margin-bottom: 10px;
+}
+.tab-con li {
+	float: left;
+	height: 360px;
+}
+.w209 {
+	width: 209px;	
+}
+.w329 {
+	width: 329px;
+	height: 360px;
+	position: relative;
+}
+.w329 ul {
+	width: 329px;
+	height: 360px;
+	overflow: hidden;
+}
+.lunbo {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.lunbo a {
+	float: left;
+	width: 10px;
+	height: 10px;
+	border:2px solid rgba(255,255,255,.5);
+	margin: 0 6px;
+	border-radius: 50%;
+	/* 鼠标经过显示小手 */
+	cursor: pointer;
+}
+.lunbo a:hover {
+	background-color: #ECECEC;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #CCCCCC;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #CCCCCC;
+}
+.tab-con-item {
+	border-bottom: 1px solid #CCCCCC;	
+}
+.tab-con-list {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+.tab-con-list li{
+	width: 86px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	border-bottom: 1px solid #CCCCCC;
+	margin-left: 10px;
+}
+.box-bd img {
+	transition: all 0.5s; /* 过渡动画 */
+}
+.box-bd img:hover {
+	margin-left: 8px; 
+}
+/* fixedrool start */
+.fixedtool {
+	display: none;
+	position: fixed;
+	top: 250px;
+	left: 50%;
+	margin-left: -676px;
+	width: 66px;
+}
+/* .toubu {
+	display: none;
+} */
+.fixedtool li {
+	height: 32px;
+	line-height: 32px;
+	text-align:center;
+	font-si: 12px;
+	border-bottom: 1px solid #F1F1F1;
+}
+.current {
+	background-color: red;
+}
